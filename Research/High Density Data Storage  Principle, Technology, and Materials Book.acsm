@@ -1,0 +1,37 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:3386b747-a700-4b09-9fae-f5dbbc751db4</distributor>
+  <operatorURL>http://acs.ebrary.com/fulfillment</operatorURL>
+  <transaction>28046053-0000000002</transaction>
+  <expiration>2015-02-18T03:28:29-08:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:00000000-0000-0000-0000-000010361916</resource>
+    <resourceItem>0</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">High Density Data Storage : Principle, Technology, and Materials</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Song, Yanling(Editor)</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">World Scientific</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">10361916</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:00000000-0000-0000-0000-000010361916</resource>
+      <permissions>
+        <display>
+          <duration>1209600</duration>
+        </display>
+        <excerpt>
+          <duration>1209600</duration>
+          <count initial="27"/>
+        </excerpt>
+        <print>
+          <duration>1209600</duration>
+          <count initial="27"/>
+        </print>
+        <play>
+          <duration>1209600</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>J8yL5P7J7e1cbpwY6b4F9ORw5hg=</hmac>
+</fulfillmentToken>
