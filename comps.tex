@@ -1,0 +1,91 @@
+\documentclass[ aip, 12pt]{revtex4-1} % style for Physical Review B and AJP are similar
+\usepackage{float}
+\usepackage{amsmath}
+
+\usepackage{graphicx} 
+
+
+\usepackage{sverb}
+
+\begin{document}
+
+\title{Physics of Digital Data Storage}
+\author{Tenzin Rigden}
+\affiliation{Carleton College, Department of Physics, Northfield, MN 55057}
+\date{\today}
+
+\begin{abstract}
+Word count: 
+\end{abstract}
+
+\maketitle
+\section{Introduction}
+On a fundamental level, a computer stores everything in a series of 1s or 0s called bits. Movies, pictures, and applications are all stored as a series of billions of these bits. In this binary system, 1 represents a true/on state while a 0 represents a false/off state. 
+\section{Background}
+
+
+\section{Magnetic Storage}
+\subsection{Background}
+Magnetic storage is a property can be attributed to the ferromagnetic property of certain metals such as iron and cobalt. Ferromagnetic materials are divided into small magnetic domains each with their own magnetic field in a direction. An unmagnetized ferromagnet will have these domains in random directions such that the net effect is 0 as seen in figure \ref{domain}a. However, if an external magnetic field is applied, these domains will align with the external field and will stay aligned even after the external field is removed as in figure \ref{domain}b. 
+
+\begin{figure}[H]
+\centerline{\includegraphics[scale=.45]{magneticDomain.png}}
+\caption{ }
+\label{domain}
+\end{figure} 
+This is due to the hysteresis loop experienced by the ferromagnetic material. If we start with an unmagnetized ferromagnetic material with no external magnetic field, point a in figure \ref{hysteresis}, and increase the external magnetic field, $B_0$, we get to point b where there is a both a nonzero external amgnetic field and total field from the external and material. If the external magnetic field is then decreased to zero, instead of returning to point a, it instead reaches point c. Here, even though there is no external magnetic field, there is still an internal field from the ferromagnetic material. This phenomenom is what allows magnetic storage to store bits. Aligning a certain domain's magnetic field in one direction can signify a 1 while the other direction's signifies a 0.
+
+
+\begin{figure}[H]
+\centerline{\includegraphics[scale=.45]{hysteresis.png}}
+\caption{ }
+\label{hysteresis}
+\end{figure}
+
+Reading and writing to the material is done by inducing a magnetic field using a head and coil of wire. The mechanics behind this are governed by Maxwell's equations. The two relevant equations are
+\begin{equation}
+\nabla x E = -\frac{\partial B}{\partial t},
+\label{faraday}
+\end{equation}
+which is known as Faraday's law of induction and 
+\begin{equation}
+\nabla x B = \mu_0 J +\mu_0\epsilon_0\frac{\partial E}{\partial t},
+\label{ampere}
+\end{equation}
+which is known as Ampere's law (cite purcell). Faraday's law tells us that a changing electric field will yield and changing magnetic field, and Ampere's law tells us the opposite. 
+
+\subsection{Magnetic Disk Storage}
+A magnetic disk drive is the most commonly used data storage technology used in consumer products today. First introduced in 1956 by IBM, modern drives consist of mainly of a read/write head and a hard platter with a ferromagnetic layer. Originally, the head was used for both reading and writing but compromises had to be made. The read head wants a thicker gap to be better able to penetrate the medium while the write head wants a smaller gap to get better accuracy. As domains got smaller, it became more and more difficult for the read/write heads to be able to properly read the intended domain from the increasing noise of the other domains. Nowadays, reading is done instead by a giant magnetoresistive (GMR) head. Magnetoresistance (MR) is the property that when a coiled wire will not only generate an electric field/current, it will also experience a change in resistance. This change in resistance can be used as a more accurate way to read the bits by applying a constant potential across a MR sensor and recording how the potential changes due to the change in the resistance of the wire because of Ohm's law. GMR is similar to MR but actually is a quantum effect. It is appropriately named because of its ability to change the resistance is giant in comparison to MR.  (CITE HIGH DENSITY DATA STORAGE) 
+
+TALK MORE ABOUT GMR
+The mechanism behind this goes goes into the spin state of the moving electrons. These electrons can only have one of two possible states, up or down. If the spin states align with the direction of the magnetic field, they move forward in the wire simulating a lower resistance. However, if the spin state is against the field, then the electrons will travel in the opposite direction of the current causing more collisions and thereby increasing the resistance of the wire. (CITE HIGH DENSITY DATA STORAGE)
+
+The innovation of GMR read head and a dedicated write head allowed the domain bits to shrink even more. However, a new issue began to arise. The ability to retain stored data in the material is dependent on the product of $K_u$ and $V$ where $K_u$ is the magnetic anisotropy constant of the material. This product gives the energy barrier that must be overcome that allows the material to keep its magnetic field even without the external field. However, as the domains decrease in size to increase density, the volume decreases and so does the energy barrier. If the volumte of the domain decreases to the point where this energy barrier is on the same order of magnitude as thermal energy, $K_bT$, the domain may randomly switch its field direction and "flip bits." This created a limit to the storage density that longitudinal recording could attain.(CITE PERPENDICULAR RECORDING ARTICLE)
+
+To surpass this limit, the orientation of the recorded magnetic field changed from longitudinal recording to perpendicular recording. In addition to the change in orientation, the writing head was changed to a single-pole head and a highly permeable soft underlayer(SUL) was added below the recording material. The permeability of the SUL allowed it to act as a magnetic mirror to the actual head. This greatly increased the induced magnetic field used to write data. The stronger magnetic field means that materials with higher anisotropy values could be used that were not feasible for the weaker magnetic field in longitudinal recording. Because the anisotropy constant can be increased, the volume of the domain can be decreased further without worrying about thermal fluctuations.
+
+However, this too will have a limit at a smaller domain size where thermal fluctuations will be an issue again. One method still currently in development is called heat-assisted magnetic recording (HAMR). This method is based on the fact that all ferromagnetic materials have a curie temperature where the internal magnetic field it had is reduced to zero, and in the presence of an external magnetic field will align itself to that. In HAMR, when something needs to get written, a laser is used to heat up the desired domain to the curie temperature allowing our magnetic field to allign the domain, and then allowing the material to cool back down. This means that the recording material can be changed to one with a much higher anisotropy value allowing the domain sizes to decrease even more, further increasing the storage density.
+
+\begin{figure}[H]
+\centerline{\includegraphics[scale=.45]{perpendicularComparison.png}}
+\caption{ }
+\label{perpendicularComparison}
+\end{figure}
+
+\section{Applications}
+\subsection{Colloids}
+
+
+\subsection {Optical Thermal Ratchets}
+
+
+\subsection{Molecular Motors}
+
+\section{Broader Impacts}
+
+
+\bibliography{compsNotes}
+\bibliographystyle{aip}
+
+
+\end{document}
