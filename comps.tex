@@ -24,6 +24,34 @@ On a fundamental level, a computer stores everything in a series of 1s or 0s cal
 \section{Background}
 
 
+\section{Optical Storage}
+\subsection{Background}
+Optical storage devices are devicecs that use optical methods to record and read information. For optical disks, data is recorded and read using a laser beam. To record data, a laser beam is shined on the reflective surface creating a pit with a depth of the wavelength of the laser divided by 2. Thus lands are the areas that were not shined on by the laser. To read, a very low power laser is shined on the disk and the reflected signal is converted to an electrical signal using a scanning photo detector. A "1" is interperted as when there is a change in the surface, i.e. changing from pit to land or land to pit, and a "0" is interperted as when there is no change in the surface. The way this is manifested is that when at a changing point for the surface, the laser will be shining at both the land and the pit. This means that the light reflected off of the pit will have a phase change of $\lambda/2$ behind the light reflected off of the land causing destructive interference and no reflected light, "1". When there is no change in the surface, the light simply reflects back normally and is interpreted as a "0." (CITE MEMORY MASS STORAGE)
+
+\begin{figure}[H]
+\centerline{\includegraphics[scale=.9]{cdRom.png}}
+\caption{ }
+\label{cdRom}
+\end{figure} 
+\subsection{Optical Disks}
+Optical Disks come in a few different styles: Compact Disk ROM (CD-ROM), CD-Recordable (CD-R), CD-Rewriteable (CD-RW), and Digital Versatile Disk (DVD). These disc technologies are written sequentially in a continous spiral track eminating from the middle out. This causes it to be slower than other technologies that use cocentric tracks. A CD-ROM is a disc that's only meant to be readable and typically used for things such as installation of programs. Since it is only written once in the factory, a glass master disk is created using a high intensity laser. Liquid polycarbonate is inserted into the master disk to recreate the disk which is then covered with a reflective layer then a protective one. 
+A CD-R is slightly different because it needs to be able to written to once outside of the factory. This is one by having a painted layer between the reflective layer and transparent layer. The painted layer is initially transparent and becomes dark to simulate a pit when impacted by a high-intensity laser. Lastly, in a CD-RW, the reflective layer has two states, a slightly reflective amorphous state and a highly reflective crystalline state. A high intensity laser shined on this layer will cause it to turn into its amorphous state and simulates a pit, while a medium intensity laser will cause it to change back into its crystalline state and simulates a land. And again, a low intensity laser is used to read the pits and lands without affecting the state.
+
+\begin{figure}[H]
+\centerline{\includegraphics[scale=.45]{cdR.png}}
+\caption{ }
+\label{cdR}
+\end{figure} 
+
+While CDs were useful and easy to carry around, their size was limited to only 700MB. Demand for higher storage capacities in the 1990s led to the invention of the DVD which offered data storage of at least 4.7GB. The first main difference between CDs and DVDs is that DVDs use a shorter wavelength light, 650nm, than CDs use, 780nm. What this allows is that pits and lands in the DVD are much smaller and can be placed closer together than a CD could, increasing storage density. Another innovation that allowed storage of up to 8.5GB was the ability to have two different recording layer: a semi reflective layer in the middle and a fully reflective layer at the other end. The different layers can be read by changing the focus of the laser. Additionally, instead of having a protective layer on one side of the disk, you can put another disc on it to effectively double the capacity again. However, this requires the manual flipping of the disc when accessing the other half of the data. By having double sided and a double layer, DVDs can achieve a storage of 17GB.
+
+\begin{figure}[H]
+\centerline{\includegraphics[scale=.45]{DVD.png}}
+\caption{ }
+\label{DVD}
+\end{figure} 
+
+
 \section{Magnetic Storage}
 \subsection{Background}
 Magnetic storage is a property can be attributed to the ferromagnetic property of certain metals such as iron and cobalt. Ferromagnetic materials are divided into small magnetic domains each with their own magnetic field in a direction. An unmagnetized ferromagnet will have these domains in random directions such that the net effect is 0 as seen in figure \ref{domain}a. However, if an external magnetic field is applied, these domains will align with the external field and will stay aligned even after the external field is removed as in figure \ref{domain}b. 
@@ -64,13 +92,15 @@ The innovation of GMR read head and a dedicated write head allowed the domain bi
 
 To surpass this limit, the orientation of the recorded magnetic field changed from longitudinal recording to perpendicular recording. In addition to the change in orientation, the writing head was changed to a single-pole head and a highly permeable soft underlayer(SUL) was added below the recording material. The permeability of the SUL allowed it to act as a magnetic mirror to the actual head. This greatly increased the induced magnetic field used to write data. The stronger magnetic field means that materials with higher anisotropy values could be used that were not feasible for the weaker magnetic field in longitudinal recording. Because the anisotropy constant can be increased, the volume of the domain can be decreased further without worrying about thermal fluctuations.
 
-However, this too will have a limit at a smaller domain size where thermal fluctuations will be an issue again. One method still currently in development is called heat-assisted magnetic recording (HAMR). This method is based on the fact that all ferromagnetic materials have a curie temperature where the internal magnetic field it had is reduced to zero, and in the presence of an external magnetic field will align itself to that. In HAMR, when something needs to get written, a laser is used to heat up the desired domain to the curie temperature allowing our magnetic field to allign the domain, and then allowing the material to cool back down. This means that the recording material can be changed to one with a much higher anisotropy value allowing the domain sizes to decrease even more, further increasing the storage density.
-
 \begin{figure}[H]
 \centerline{\includegraphics[scale=.45]{perpendicularComparison.png}}
 \caption{ }
 \label{perpendicularComparison}
 \end{figure}
+
+
+However, this too will have a limit at a smaller domain size where thermal fluctuations will be an issue again. One method still currently in development is called heat-assisted magnetic recording (HAMR). This method is based on the fact that all ferromagnetic materials have a curie temperature where the internal magnetic field it had is reduced to zero, and in the presence of an external magnetic field will align itself to that. In HAMR, when something needs to get written, a laser is used to heat up the desired domain to the curie temperature allowing our magnetic field to allign the domain, and then allowing the material to cool back down. This means that the recording material can be changed to one with a much higher anisotropy value allowing the domain sizes to decrease even more, further increasing the storage density. (CITE HAMR ARTICLE)
+
 
 \section{Applications}
 \subsection{Colloids}
