@@ -1,53 +1,59 @@
-%merlin.mbs aipnum4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
-%Control: key (0)
-%Control: author (8) initials jnrlst
-%Control: editor formatted (1) identically to author
-%Control: production of article title (0) allowed
-%Control: page (1) range
-%Control: year (1) truncated
-%Control: production of eprint (0) enabled
-\begin{thebibliography}{0}%
-\makeatletter
-\providecommand \@ifxundefined [1]{%
- \@ifx{#1\undefined}
-}%
-\providecommand \@ifnum [1]{%
- \ifnum #1\expandafter \@firstoftwo
- \else \expandafter \@secondoftwo
- \fi
-}%
-\providecommand \@ifx [1]{%
- \ifx #1\expandafter \@firstoftwo
- \else \expandafter \@secondoftwo
- \fi
-}%
-\providecommand \natexlab [1]{#1}%
-\providecommand \enquote  [1]{``#1''}%
-\providecommand \bibnamefont  [1]{#1}%
-\providecommand \bibfnamefont [1]{#1}%
-\providecommand \citenamefont [1]{#1}%
-\providecommand \href@noop [0]{\@secondoftwo}%
-\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
-\providecommand \@href[1]{\@@startlink{#1}\@@href}%
-\providecommand \@@href[1]{\endgroup#1\@@endlink}%
-\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
-  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
-\providecommand \@@startlink[1]{}%
-\providecommand \@@endlink[0]{}%
-\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
-\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
-\providecommand \urlprefix  [0]{URL }%
-\providecommand \Eprint [0]{\href }%
-\providecommand \doibase [0]{http://dx.doi.org/}%
-\providecommand \selectlanguage [0]{\@gobble}%
-\providecommand \bibinfo  [0]{\@secondoftwo}%
-\providecommand \bibfield  [0]{\@secondoftwo}%
-\providecommand \translation [1]{[#1]}%
-\providecommand \BibitemOpen [0]{}%
-\providecommand \bibitemStop [0]{}%
-\providecommand \bibitemNoStop [0]{.\EOS\space}%
-\providecommand \EOS [0]{\spacefactor3000\relax}%
-\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
-\let\auto@bib@innerbib\@empty
-%</preamble>
-\end{thebibliography}%
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{\\URL: }
+\providecommand{\bibAnnoteFile}[1]{%
+  \IfFileExists{#1}{\begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ \input{#1}\end{quotation}}{}}
+\providecommand{\bibAnnote}[2]{%
+\begin{quotation}\noindent\textsc{Annotation:}\ #2\end{quotation}}
+
+\bibitem{memory}
+G.~Campardo, F.~Tiziani and M.~Iaculo, \emph{{Memory Mass Storage}} (Springer
+  Berlin Heidelberg, 2011),
+  \urlprefix\url{https://books.google.com/books?id=5hxzxjTsTEQC}
+\bibAnnoteFile{memory}
+
+\bibitem{HDS}
+K.~Curtis, L.~Dhar, A.~Hill, W.~Wilson and M.~Ayres, \emph{{Holographic data
+  storage}} (Wiley Online Library, 2010)
+\bibAnnoteFile{HDS}
+
+\bibitem{purcell}
+E.~M. Purcell and D.~J. Morin, \emph{{Electricity and Magnetism}}, 3rd ed.
+  (Cambridge Univeristy Press, 2013)
+\bibAnnoteFile{purcell}
+
+\bibitem{highDensity}
+Y.~Song, \emph{{High density data storage: Principle, Technology, and
+  Materials}} (World Scientific, 2009)
+\bibAnnoteFile{highDensity}
+
+\bibitem{perpendicular}
+S.~N. Piramanayagam, \emph{{Perpendicular recording media for hard disk
+  drives}}, Journal of Applied Physics \textbf{102} (2007)~(1), p. 11301
+\bibAnnoteFile{perpendicular}
+
+\bibitem{hamr}
+L.~Pan and D.~B. Bogy, \emph{{Data storage: Heat-assisted magnetic recording}},
+  Nature Photonics \textbf{3} (2009)~(4), pp. 189--190
+\bibAnnoteFile{hamr}
+
+\bibitem{btm}
+A.~Kikitsu, \emph{{Prospects for bit patterned media for high-density magnetic
+  recording}}, Journal of Magnetism and Magnetic Materials \textbf{321}
+  (2009)~(6), pp. 526--530
+\bibAnnoteFile{btm}
+
+\bibitem{modernPhysics}
+J.~R. Taylor, M.~A. Dubson and C.~D. Zafiratos, \emph{{Modern physics for
+  scientists and engineers}} (Prentice-Hall, 2004)
+\bibAnnoteFile{modernPhysics}
+
+\bibitem{probe}
+A.~Pantazi, A.~Sebastian, T.~A. Antonakopoulos, P.~B\"{a}chtold, A.~R.
+  Bonaccio, J.~Bonan, G.~Cherubini, M.~Despont, R.~A. DiPietro, U.~Drechsler
+  and Others, \emph{{Probe-based ultrahigh-density storage technology}}, IBM
+  Journal of Research and Development \textbf{52} (2008)~(4.5), pp. 493--511
+\bibAnnoteFile{probe}
+
+\end{thebibliography}
