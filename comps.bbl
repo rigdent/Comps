@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{\\URL: }
 \providecommand{\bibAnnoteFile}[1]{%
@@ -13,20 +13,45 @@ G.~Campardo, F.~Tiziani and M.~Iaculo, \emph{{Memory Mass Storage}} (Springer
   \urlprefix\url{https://books.google.com/books?id=5hxzxjTsTEQC}
 \bibAnnoteFile{memory}
 
+\bibitem{airyDisk}
+\emph{{Airy Disk Image}}
+  \urlprefix\url{http://cdn.cambridgeincolour.com/images/tutorials/airydisk-rings.jpg}
+\bibAnnoteFile{airyDisk}
+
+\bibitem{rayleigh}
+\emph{{Rayleigh's Critereon}}
+  \urlprefix\url{http://upload.wikimedia.org/wikipedia/commons/a/ae/Airy\_disk\_spacing\_near\_Rayleigh\_criterion.png}
+\bibAnnoteFile{rayleigh}
+
+\bibitem{hyper}
+\emph{{Compact Disc Audio}},
+  \urlprefix\url{http://hyperphysics.phy-astr.gsu.edu/hbase/audio/cdplay.html\#c1}
+\bibAnnoteFile{hyper}
+
+\bibitem{wikiPic}
+\emph{{Circularly Polarized Light image}},
+  \urlprefix\url{http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/imgpho/polcir.gif}
+\bibAnnoteFile{wikiPic}
+
 \bibitem{HDS}
 K.~Curtis, L.~Dhar, A.~Hill, W.~Wilson and M.~Ayres, \emph{{Holographic data
   storage}} (Wiley Online Library, 2010)
 \bibAnnoteFile{HDS}
+
+\bibitem{optics}
+F.~L. Pedrotti, L.~S. Pedrotti and L.~M. Pedrotti, \emph{{Introduction to
+  Optics}} (Pearson Addison Wesley, 2007)
+\bibAnnoteFile{optics}
 
 \bibitem{purcell}
 E.~M. Purcell and D.~J. Morin, \emph{{Electricity and Magnetism}}, 3rd ed.
   (Cambridge Univeristy Press, 2013)
 \bibAnnoteFile{purcell}
 
-\bibitem{highDensity}
-Y.~Song, \emph{{High density data storage: Principle, Technology, and
-  Materials}} (World Scientific, 2009)
-\bibAnnoteFile{highDensity}
+\bibitem{gmr}
+\emph{{Giant magnetoresistance}}  (2013),
+  \urlprefix\url{http://physicscentral.com/explore/action/magnetoresistance.cfm}
+\bibAnnoteFile{gmr}
 
 \bibitem{perpendicular}
 S.~N. Piramanayagam, \emph{{Perpendicular recording media for hard disk
@@ -38,11 +63,10 @@ L.~Pan and D.~B. Bogy, \emph{{Data storage: Heat-assisted magnetic recording}},
   Nature Photonics \textbf{3} (2009)~(4), pp. 189--190
 \bibAnnoteFile{hamr}
 
-\bibitem{btm}
-A.~Kikitsu, \emph{{Prospects for bit patterned media for high-density magnetic
-  recording}}, Journal of Magnetism and Magnetic Materials \textbf{321}
-  (2009)~(6), pp. 526--530
-\bibAnnoteFile{btm}
+\bibitem{thermo}
+K.~Stowe, \emph{{An Introduction to Thermodynamics and Statistical Mechanics}}
+  (Cambridge Univeristy Press, 2007)
+\bibAnnoteFile{thermo}
 
 \bibitem{modernPhysics}
 J.~R. Taylor, M.~A. Dubson and C.~D. Zafiratos, \emph{{Modern physics for
