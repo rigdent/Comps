@@ -20,31 +20,91 @@ Data storage technologies have become increasingly important as more and more of
 
 \maketitle
 \section{Introduction}
-Computers and phones have become such a ubiquitous part of our lives that it is becoming more and more difficult to live without them. However, just as important as these devices themselves is what is stored in them. Your pictures, music, videos, papers, and more are all stored digitally on the devices. As more and more of our lives are recorded digitally, it has become increasingly important to find new ways to either expand our current data storage technologies or find new ones. On a fundamental level, a computer stores everything in a series of 1s or 0s called bits. In this binary system, 1 represents a ''true" state while a 0 represents a ''false" state. By using this binary system, it is possible to represent numbers as a sequence of 1s and 0s where each digit starting from the right represent an increasing power of 2 starting with $2^0$. For example, the number 13 can be represented as 1101 so we get, from the right, 1*$2^0$ + 0*$2^1$ + 1*$2^2$ + 1*$2^3$ which adds up to 13. Now that we can represent numbers, we can use these numbers to represent other characters. One method is to use the American Standard Code for Information Interchange (ASCII) encoding system which was first published in 1963. ASCII encodes 128 characters that include letters, both lower case and capital, numbers, and other special characters into 7 bit integers. To represent the capital letter T, that corresponds to the 84th character and thus in binary can be represented as 01010100. A series of these binary numbers can be used to represent text.
+Computers and phones have become such a ubiquitous part of our lives that it is becoming more and more difficult to live without them. Just as important as these devices themselves are their contents. Your pictures, music, videos, papers, and more are all stored digitally on the devices. As more and more of our lives are recorded digitally, it has become increasingly important to find new ways to either expand our current data storage technologies or find new ones. On a fundamental level, a computer stores everything in a series of 1s or 0s called bits. In this binary system, 1 represents a ``true" state while a 0 represents a ``false" state. By using this binary system, it is possible to represent numbers as a sequence of 1s and 0s where each digit starting from the right represent an increasing power of 2 starting with $2^0$. For example, the number 13 can be represented as 1101 so we get, from the right, 1*$2^0$ + 0*$2^1$ + 1*$2^2$ + 1*$2^3$ which adds up to 13. Since we can represent numbers, we can use these numbers to represent other characters. One method is to use the American Standard Code for Information Interchange (ASCII) encoding system which was first published in 1963. ASCII encodes 128 characters that include letters, both lower case and capital, numbers, and other special characters into 7 bit integers. For example, the capital letter T corresponds to the 84th character and thus in binary can be represented as 01010100. A series of these binary numbers can be used to represent text.
 
 
-Now that we know we can use binary to represent text, we can look at how we can physically write these 1s and 0s. One of the earlier methods was to use punch cards which used holes and not holes to represent 1s and 0s. The early punch cards used 36 bits words because they were used in calculators and they wanted to be able to represent 10 decimal places. However this method is not very dense, data storage wise.
+Now that we know we can use binary to represent text, we can look at how we can physically store these 1s and 0s. One of the earlier methods was to use punch cards with holes and not holes representing 1s and 0s respectively. The early punch cards used 36 bits words because they were used in calculators and they wanted to be able to represent 10 decimal places. However this method is not very dense, data storage wise, and is limited by the number of holes that could be fit on a piece of paper.
 
 
-In this paper, I will talk about more modern techniques that are currently being used for non-volatile memory, which means that data will not be lost if it does not have power. I will begin with optical data storage, specifically optical disks. Then I will talk about magnetic data storage in talking about hard disk drives and their advancements. Then I will talk about flash memory storage which promises much faster access to data. Lastly, I will talk about state of the art techniques currently being developed such as holographic data storage and probe based storage that could greatly increase storage density.
+In this paper, I will talk about more modern techniques that are currently being used for non-volatile memory, which means that data will not be lost if the device does not have power. I will begin with optical data storage, specifically optical disks. Then I will continue on to magnetic data storage specifcally talking about hard disk drives and their advancements. After that will be flash memory storage which promises much faster access to data. Lastly, I will talk about a state of the art technique currently being developed called holographic data storage which promises to greatly increase storage density.
 
 
 
 
 
 \section{Optical Disk Storage}
-\subsection{Optical Disks}
-Optical disks are a form of media storage that uses the reflection of a laser beam to store data. They have been commonplace in the United States since their invention in 1958 \cite{memory}. While optical disks aren't typically the preference for storing data directly from the computer, they are frequently used archive or transfer data between machines. For optical disks, data is recorded and read using a laser beam. To record data, a laser beam is shone on the reflective surface creating a pit with a depth of the wavelength of the laser divided by 4. To read data, a very low power laser is shone on the disk and the reflected signal is converted to an electrical signal using a scanning photo detector. A binary value of 1 is recorded when there is a change in the surface depth due to switching to a pit to land or vice versa, and a 0 is interperted as when there is no change in the surface depth. When the laser is shone over an intersection between a pit and a land, there will light reflected from the pit and the land. Since the pit has a depth of $\lambda/4$, the light reflected off of the pit will have a phase change of $\lambda/2$ relative to the light reflected off of the land. This phase change causes destructive interference and no light will be reflected to the photo diode which is then recorded as a 1. When there is no change in the surface depth, the light simply reflects back with no phase change and is recorded as a 0 by the photo diode \cite{memory}.
+
+Optical disks are a form of media storage that uses the grooves in the disk to store data. They have been commonplace in the United States since their invention in 1958 \cite{memory}. While optical disks aren't typically the preference by consumers for storing data directly from the computer, they are frequently used to archive or transfer data between machines. For optical disks, data is recorded and read using a laser beam. To record data onto a writable disc, a laser beam is shone on the reflective surface creating a pit, a tiny indentation, with a depth of the wavelength of the laser divided by 4. As seen in Fig. \ref{cdRom}, to read data, a very low power laser is shone on the disk and the reflected signal is converted to an electrical signal using a scanning photo detector. A binary value of 1 is recorded when there is a change in the surface depth due to switching to a pit to land or vice versa, and a 0 is interperted as when there is no change in the surface depth. When the laser is shone over an intersection between a pit and a land, there will be light reflected from the pit and the land resulting in two beams \cite{memory}. These two beams will then destructively interefere back at the photo-diode. To see how they interfere, we can look at it quantitatively. 
 
 \begin{figure}[H]
 \centerline{\includegraphics[scale=.9]{cdRom.png}}
-\caption{ This is a cross-sectional view of a CD-ROM where there a pit signifies a $\lambda/4$ depth meaning when a laser shines over a change from land to pit or vice versa, destructive interference will take place signifying a bit value of 1 \cite{memory}.}
+\caption{ This is a cross-sectional view of a CD-ROM where there a pit signifies a $\lambda/4$ depth meaning when a laser shines over a change from land to pit or vice versa, destructive interference will take place signifying a bit value of 1$ http://www.hk-phy.org/articles/cdrom/cdrom_work_e.gif.$}
 \label{cdRom}
-\end{figure} 
-Optical Disks come in a few different styles: Compact Disk ROM (CD-ROM), CD-Recordable (CD-R), and Digital Versatile Disk (DVD). These disc technologies are written sequentially in a continous spiral track eminating from the middle out, the distance between each track is called the pitch. This causes it to be slower than other technologies, such as magnetic hard drives, that use cocentric tracks. This is because in a spiral track, the object that reads data can only travel along the spiral track whereas the reading object for cocentric tracks must be able to move between circles to be able to access all the data. In the case of where the read object is near the center and wants to read data near the edge of the optical disk, it must follow the spiral track around many times until it reaches the edge of the disk. The read object in a magnetic hard drive however can just move directly to the edge of disk without using its normal mechanism. Though spiral tracks are slower, the reason they are used is that they are better for continuous reading of data since all of the data is stored on one track. With cocentric tracks, once all of the data in a track is read, the read object must switch to a different cocentric track to continue reading data. In the cases for optical disks where typically music or videos are being stored, continuous playback is more advantageous.
+\end{figure}
 
-A CD-ROM is a disc that's only meant to be readable and typically used for things such as installation of programs. Since it is only written once in the factory, a glass master disk is created using a high intensity laser. Liquid polycarbonate is inserted into the master disk to recreate the disk which is then covered with a reflective layer and then a protective layer over that. 
+\subsection{Destructive Interference}
+When two waves arrive at the same point the superpostion of those waves creates a new wave. Interference depends on the superposition of the waves and certain conditions. In our example, since we have a laser beam effectively being split into two beams, we have coherent light (there is a constant phase difference between two beams), and both beams have the same frequency. Then, we can define the electric field of the two beams as
+
+
+\begin{align}
+\begin{split}
+\vec{E}_{1} = \vec{E}_{01} cos(k s_1-\omega t + \phi_1) \\
+\vec{E}_{2} = \vec{E}_{02} cos(k s_1-\omega t + \phi_1),
+\end{split}
+\label{eRefInf}
+\end{align}
+where $ \vec{E}_{01}$ and $ \vec{E}_{02}$ are the amplitudes for the wave, $k$ is defined as $\frac{2\pi}{\lambda}$, $s_1$ and $s_2$ are defined as distance traveled by each beam, and $\phi_1$ and $\phi_2$ are the phases of the beams at t = 0 at their source \cite{optics}. Since we have the same source for both of our beams, the amplitudes and the phase at t = 0 are the same. Next, the superposition of these two waves at a point $P$ is 
+
+\begin{equation}
+\vec{E}_{P} = \vec{E}_{1} + \vec{E}_{2}.
+\label{ePInf}
+\end{equation}
+
+The measurement of the effect of this wave on our eyes or a detector depends on the energy of the light beam. The irradiance, $I$, is the time average of the square of the wave amplitude and is is used to measure effects of waves \cite{optics}. The time average of the irradiance is done by the detector; our eye for example has an averaging time of 1/30 of a second. The irradiance is defined as 
+
+\begin{equation}
+I = \epsilon_0 c<\vec{E}_{P}\cdot \vec{E}_{P}>,
+\label{iInf}
+\end{equation}
+where $\epsilon_0$ is the vacuum permittivity and $c$ is the speed of light \cite{optics}. By subbing in Eq. \ref{ePInf} for $\vec{E}_{P}$ and simplifying we get 
+\begin{equation}
+I = \epsilon_0 c<\vec{E}_{1}\cdot \vec{E}_{1}+\vec{E}_{2}\cdot \vec{E}_{2}+2\vec{E}_{1}\cdot \vec{E}_{2}>.
+\label{iInf2}
+\end{equation}
+The first two terms correspond to the irradiances of the individual beams while the third term corresponds to the interaction between the waves and is the interference term, $I_{12}$ \cite{optics}. Then, $I$ can be rewritten as 
+\begin{equation}
+I = I_1 + I_2 + I_{12}.
+\label{iInf3}
+\end{equation}
+
+The interference term, $I_{12}$, by using a trigonemtric identity and simplifying, can be written as 
+
+\begin{equation}
+I_{12} = 2\sqrt{I_1 I_2}<cos\delta>,
+\label{iInf2}
+\end{equation}
+where $\delta$ is the phase difference and is defined as 
+\begin{equation}
+\delta = k(s_2 - s_1) +\phi_2 -\phi_1.
+\label{delta}
+\end{equation}
+Finally, we can write $I$ as 
+\begin{equation}
+I = I_1 + I_2 +  2\sqrt{I_1 I_2}<cos\delta>.
+\label{finalI}
+\end{equation}
+Destructive interference will yield a minimum value when $cos\delta$ is -1. In our case, since the beams have the same source, the laser, $\phi_1$ and $\phi_2$ are the same and their difference is 0, so $\delta$ will be 0 when the path length difference between the beams is $\frac{(2m+1)\lambda}{2}$ where m is an integer. Returning to our CD, since the pit has a depth of $\lambda/4$, the light reflected off of the pit will have a path length difference of $\lambda/2$ relative to the light reflected off of the land. This means that $\delta$ is $\pi$ so $cos\delta$ is -1. Since the sources for the beams are the same, $I_1$ = $I_2$, so our $I$ term is now
+\begin{equation}
+I = I_1 + I_1 - 2\sqrt{I_1 I_1} = 0.
+\label{finalI2}
+\end{equation}
+This means at the change between a land and a pit, the two reflected beams will completely destructively interfere and no light will be reflected to the photo diode, which is then recorded as a 1. When there is no change in the surface depth, the light simply reflects back with no phase difference and is recorded as a 0 by the photo-diode \cite{memory}.
+
+\subsection{Disk Types and Layers}
+Optical Disks come in a few different styles: Compact Disk ROM (CD-ROM), CD-Recordable (CD-R), and Digital Versatile Disk (DVD). These disc technologies are written sequentially in a continous spiral track eminating from the middle out, the distance between each track is called the pitch. A CD-ROM is a disc that's only meant to be readable and is typically used for things such as installation of programs. Since it is only written once in the factory, a glass master disk is created using a high intensity laser. Liquid polycarbonate is inserted into the master disk to create a copy which is then covered with a reflective layer and then a protective layer over that. 
 A CD-R is slightly different because it needs to be writable once outside of the factory. This is done by changing the structure of the disk to have a protective layer followed by a reflective layer, a painted layer, and a transparent layer as seen in Fig. \ref{cdR}. The painted layer is initially transparent and permantly becomes dark to simulate a pit when impacted by a high-intensity laser. This can then be read by a lower intensity laser that does not cause the painted layer to turn dark.
+
+
 
 \begin{figure}[H]
 \centerline{\includegraphics[scale=.45]{cdR.png}}
@@ -52,19 +112,68 @@ A CD-R is slightly different because it needs to be writable once outside of the
 \label{cdR}
 \end{figure} 
 
-While CDs are useful and easy to carry around, their size was limited to only 700MB. Demand for higher storage capacities in the 1990s meant that the CD had to change. Since the 1 and 0 data values are stored in the pits and lands, the way to increase storage density is to decrease their size and also place tracks closer to each other, decrease their pitch. However, these values can only be decreased to a certain point due to the diffraction. Diffraction is the phenomena where light that propagates through an openiing interferees with itself causing a diffraction pattern. In the case of a circular aperture, the type used in lasers, the diffraction pattern produced as seen in Fig. \ref{airy} is called an Airy Disk, with the bright circles representing maximums and the dark circles representing minimums. Two point sources are considered resolvable when the principle maximum one source overlaps with the first minimum of the other as in Fig. \ref{criterion} b. This is known as Rayleigh's Criterion and is given by 
+\subsection{Rayleigh's Criteron due to Diffraction}
+
+While CDs are useful and easy to carry around, their size was limited to only 700 MB until the early '90s when demand for higher storage capacities in the 1990s meant that the CD had to change. Since the 1 and 0 data values are stored in the pits and lands, the way to increase storage density was to decrease their size and also place tracks closer to each other by decreasing their pitch. However, these values can only be decreased to a certain point due to diffraction. Diffraction is the phenomenon where light that propagates through an opening interferes with itself causing a diffraction pattern. For lasers which use a circular aperture, the opening through which light travels, the diffraction pattern produced (as seen in Fig. \ref{airy}) is called an Airy Disk, with the bright circles representing maxima and the dark circles representing minima. This shape can be derived by starting with the electric field at point p through a circual aperture which can be found by 
+\begin{equation}
+E_p = \frac{E_A}{r_0}e^{i(k r_0 -\omega t)}\iint \limits_{Area} e^{i s k sin\theta} dA,
+\label{EP}
+\end{equation}
+where $E_A$ is a constant factor that determines the strength of the electric field in the aperture, $k$ is the same as before $\frac{2\pi}{\lambda}$, $dA$ is an elemental area of the aperture as seen in Fig \ref{aperture}, $s$ is the radial distance from the center of the aperture to the $dA$, $\theta$ is the angle of the optical path relative to the axis orthogonal to the aperture, and $r_0$ is the optical path length to the point P \cite{optics}. 
+\begin{figure}[H]
+\centerline{\includegraphics[scale=.45]{bessel.jpg}}
+\caption{\cite {optics.}}
+\label{aperture}
+\end{figure} 
+We can write $dA$ as $xds$ where $x$ is $2\sqrt{R^2 - s^2}$ and $R$ is the aperture radius. Eq \ref{EP} then becomes 
+\begin{equation}
+E_p = 2\frac{E_A}{r_0}e^{i(k r_0 -\omega t)}\int_{-R}^R e^{i s k sin\theta}\sqrt{R^2 - s^2}ds.
+\label{EP2}
+\end{equation}
+Next by making the following substitutions $v = \frac{s}{R}$ and $\gamma = kRsin\theta$, $E_P$ can be rewritten as
+\begin{equation}
+E_p = 2\frac{E_A R^2}{r_0}e^{i(k r_0 -\omega t)}\int_{-1}^1 e^{i \gamma v}\sqrt{1 - v^2}dv.
+\label{EP3}
+\end{equation}
+The integral on the right side is known to be
+\begin{equation}
+\int_{-1}^1 e^{i \gamma v}\sqrt{1 - v^2}dv = \frac{\pi J_1(\gamma)}{\gamma},
+\label{bessel}
+\end{equation}
+where $J_1(\gamma)$ is the first-order Bessel function of the first kind and can be represented by the infinite series \cite{optics}
+\begin{equation}
+J_1(\gamma) = \frac{\gamma}{2} - \frac{(\gamma /2)^3}{1^2 *2} + \frac{(\gamma /2)^5}{1^2 *2^2 *3} - .
+\label{besselSeries}
+\end{equation} 
+Finally, the irradiance at point P can be written as 
 
 \begin{equation}
-d = \frac{1.22\lambda}{2NA},
-\label{rayleigh}
-\end{equation}
-where d is the minimum resolvable distance, $\lambda$ is the wavelength of the laser, and NA is the numerical aperture of the lens (memory mass storage). If all other optical instruments are perfect, this is the smallest resolvable distance from a laser. CDs use a laser wavelength of 780 nm along with a numerical aperture of .45 which yields a minimum resolvable distance of 1.06 microns. The actual resolvable distance for the laser in a CD isn't as perfect and is 1.6 microns. To decrease the minimum resolvable distance, and consequently decrease pit size and pitch, the numerical aperture must be increased and the wavelength of light decreased. This is what DVDs do.
-
+I I_0(\frac{2J_1 (\gamma)}{\gamma})^2,
+\label{iBessel}
+\end{equation} 
+where $\gamma = 1/2 k D sin\theta$, and $I_0$ is made up of all the other constants and is the irradiance at the principle maximum \cite{optics}. This function is what causes the light dark patterns in the Airy disk. In addition, the irradiance of the 2nd maximum as a ratio of $I_0$ is 0.0175. Because the principle maxiumum is so much larger than the 2nd, two point sources are considered resolvable when the principle maximum of one source overlaps with the first minimum of the other as in Fig. \ref{criterion} b. This is known as Rayleigh's Criterion. To create an equation for this criterion, we will need to know when the irradiance first becomes 0 and that distance from the center is the minimum resolvable distance. The irradiance first becomes 0 when $\gamma = 3.832$ so \cite{optics}
 \begin{figure}[H]
-\centerline{\includegraphics[scale=2]{220px-Airy-pattern.png}}
+\centerline{\includegraphics[scale=2]{220px-Airy-pattern.jpg}}
 \caption{The airy disk created by a diffraction limited circular aperture lens laser \cite{airyDisk}.}
 \label{airy}
 \end{figure} 
+
+\begin{equation}
+\gamma = (\frac{k}{2})Dsin\theta = 3.832.
+\label{gamma}
+\end{equation}  
+Using the small angle approximation and multiplying by the distance to the screen being projected onto, $f$, we get the minimum resolvable distance, d, as
+\begin{equation}
+d = f\frac{1.22\lambda}{D},
+\label{minDF}
+\end{equation}
+$f$ is the focal length of the lens. Finally, $f/D$ can be re-written as $1/NA$ where $NA$ is the numerical aperture and indicates the resolving power of a lens. Subbing this into Eq. \ref{minDF}, we get Rayleigh's criterion \cite{memory}.
+\begin{equation}
+d = \frac{1.22\lambda}{2NA}.
+\label{rayleigh}
+\end{equation}
+If all other optical instruments are perfect, this is the smallest resolvable distance from a laser. CDs use a laser wavelength of 780 nm along with a numerical aperture of .45 which yields a minimum resolvable distance of 1.06 microns. The actual resolvable distance for the laser in a CD isn't as perfect and is 1.6 microns. To decrease the minimum resolvable distance, and consequently decrease pit size and pitch, the numerical aperture must be increased and the wavelength of light decreased. This is what DVDs do.
+
 
 \begin{figure}[H]
 \centerline{\includegraphics[scale=.45]{criterion.png}}
@@ -129,8 +238,8 @@ As seen in Fig. \ref{prism}, the polarizing beam splitter allows one polarizatio
 Another popular technology used to store data is magnetic storage. Though it is available in both tape and disk, I will only talk about disk here. Magnetic storage takes advantage of the ferromagnetic property of certain metals such as iron and cobalt. Ferromagnetic materials are composed of small magnetic domains each with their own magnetic field. An unmagnetized ferromagnet will have these domains in random directions such that the net effect is 0 as seen in Fig. \ref{domain}. However, if an external magnetic field is applied, these domains will align with the external field and will stay aligned even after the external field is removed as in Fig. \ref{domain}.
 
 \begin{figure}[H]
-\centerline{\includegraphics[scale=.45]{magneticDomain.png}}
-\caption{a) an unmagnetized piece of iron where the domains are randomly oriented. b) the domains are preferentialy aligned down \cite{modernPhysics}.)}
+\centerline{\includegraphics[scale=.5]{domains.png}}
+\caption{a) an unmagnetized piece of iron where the domains are randomly oriented. b) the domains are preferentialy aligned down cite http://hyperphysics.phy-astr.gsu.edu/hbase/solids/imgsol/domain.gif \cite{modernPhysics}.)}
 \label{domain}
 \end{figure} 
 An important phenomena that ferromagnetic material experience is the hysteresis loop. As seen in Fig.\ref{hysteresis}, when an external magnetic field, $B_0$, is applied to an unmagnetized piece of metal, a net magnetic field, $B$ exists. However, even when the external magnetic field is removed, a non-zero net magnetic field exists due to the ferromagnetic material aligning.
@@ -334,7 +443,7 @@ To store digital data in holograms, a spatial light modulator (SLM) is needed. T
 Reading the hologram is the same as it would be for a thin hologram. The reference beam is shone at the hologram, but now there is a detector array to convert the SLM image of dark and bright spots into 1s and 0s for the computer. Since a page of bits can be read/written all at once instead of bit by bit, HDS has the ability to have much greater read write speeds over other competing technologies such as magnetic data storage.
 \begin{figure}[H]
 \centerline{\includegraphics[scale=.45]{dataHologramReconstruct.png}}
-\caption{Reading information is the same as recreating a hologram except now the virtual image is shone onto a detector array which converts the dark and bright spots into "1s" and "0s".}
+\caption{Reading information is the same as recreating a hologram except now the virtual image is shone onto a detector array which converts the dark and bright spots into 1s and 0s.}
 \label{dataHologramReconstruct}
 \end{figure} 
 The reason why HDS can be so dense is because of its ability to superimpose holograms in the same volume; this is known as multiplexing. HDS offers many different methods for multiplexing. An important parameter in multiplexing is called the diffraction efficiency, $\eta$, which is the ratio of the diffracted optical power divided by the incident optical power and is expressed as 
@@ -361,13 +470,6 @@ One category of methods is known as Bragg-Based techniques which rely on the Bra
 \label{angular}
 \end{equation}
 where $\theta_r$ and $\theta_s$ are the reference and signal(object) angles and $L$ is the media thickness. To minimize noise and interference between different pages, each page would have its Bragg peak at the null position in the diffraction efficiency of every other page by changing the reference angle in by multiples of the angular selectivity. A similar method to add multiplexing is to vary the wavelength of the the source and reference beams. This method is limited due to the small tuning range of lasers. Yet another method is to vary the point of entry of the beams into the medium. While there are more methods of multiplexing, the true benefit of multiplexing occurs when combining multiple multiplexing techniques at once. For example, hybrid wavelength and angular multiplexing systems have been tested before \cite{memory}. 
-
-
-
-\section{Probe Based Storage}
-
-While still very much in development, probe based storage could also offer an alternative to the more common storage systems such as hard drives and flash memory and compete with holographic storage. Based on the success of the scanning tunneling microscope (STM) and the atomic force microscope (AFM), there was much hope in using these new technologies to store massive amounts of data in much tinier scales than their traditional counterparts. While there is research being done on quite a few different approaches for probe based storage, such as magnetic storage medium, phase change medium, and ferroelectric approach, I will talk briefly about thermomechanical method of storing and retrieving data in nanometer-scale indentations in thin polymer films \cite{probe}.  While the write and read speed of a single probe is relatively slow, it can be greatly improved by instead using a large array of probes in parallel that all can read, write, and erase its spot. Instead of traditional rotating disks in hard drives, the storage medium is positioned by microelectromechanical system (MEMS) based x and y actuators, which typically have actuation distances of around 100 $\mu$m. In thermomechanical probe-based storage, 1s and 0s correspond to indentations or lack of indentations respectively. Also, these indentations are created by softening up the medium through local heating by the tip. As for the arrays themselves, a large array consisting of up to 4096 (64x64) cantilevers with tips and sensor has been successfully created using silicon micromachining techniques \cite{probe}.  However, having this many tips brings up other issues such as physically controlling that many tips accurately and also the large power consumption needed for that many tips. Nevertheless, probe based storage, with its ability to achieve ultrahigh densities of over 1 Tb/in$^2$, has potential to become the next popular storage method.
-
 
 \section{Conclusion}
 Digital data storage allows us to store our digital information in a variety of different methods. We're already able to store data at incredible densities or speeds, but as more and more information is being saved digitally we will need more and more dense and efficient ways to store our data. Since only two states are needed to store memory, it is very easy to find techniques to store memory like punch cards. However, it is quite difficult to find technique that are dense and efficient. As we've seen, there is continued improvements being made to current data storage techniques such as Blu-Ray discs and the change to perpendicular recording in hard drives. However, these are only short term solutions to our storage needs. Both holographic storage and probe storage are new techniques that each have the potential to store over 1 Tb/in$^2$, but they each have their own issues that currently keep them in the development stage. As our data needs keep growing, the technology needed to support that will continue to evolve as well.

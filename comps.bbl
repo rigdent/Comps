@@ -11,37 +11,44 @@
 G.~Campardo, F.~Tiziani and M.~Iaculo, \emph{{Memory Mass Storage}} (Springer
   Berlin Heidelberg, 2011),
   \urlprefix\url{https://books.google.com/books?id=5hxzxjTsTEQC}
-\bibAnnoteFile{memory}
+\bibAnnote{memory}{This book provided information on a significant portion of
+  my paper. It had information on magnetic storage, flash, but I used it mainly
+  for optical disk.}
+
+\bibitem{optics}
+F.~L. Pedrotti, L.~S. Pedrotti and L.~M. Pedrotti, \emph{{Introduction to
+  Optics}} (Pearson Addison Wesley, 2007)
+\bibAnnote{optics}{This was used heavily to explain the quantitative
+  calculations in holograms.}
 
 \bibitem{airyDisk}
 \emph{{Airy Disk Image}}
-  \urlprefix\url{http://cdn.cambridgeincolour.com/images/tutorials/airydisk-rings.jpg}
+  \urlprefix\url{http://cdn.cambridgeincolour.com/images/tutorials/airydisk-rings.jpg
+  , ANNOTE = {Provided an image of an airy disk.}}
 \bibAnnoteFile{airyDisk}
 
 \bibitem{rayleigh}
 \emph{{Rayleigh's Critereon}}
   \urlprefix\url{http://upload.wikimedia.org/wikipedia/commons/a/ae/Airy\_disk\_spacing\_near\_Rayleigh\_criterion.png}
-\bibAnnoteFile{rayleigh}
+\bibAnnote{rayleigh}{Provided an image of raylight's critereon with airy
+  disks.}
 
 \bibitem{hyper}
 \emph{{Compact Disc Audio}},
   \urlprefix\url{http://hyperphysics.phy-astr.gsu.edu/hbase/audio/cdplay.html\#c1}
-\bibAnnoteFile{hyper}
+\bibAnnote{hyper}{I used this extensively to learn the different checks and
+  balances in the laser read system.}
 
 \bibitem{wikiPic}
 \emph{{Circularly Polarized Light image}},
   \urlprefix\url{http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/imgpho/polcir.gif}
-\bibAnnoteFile{wikiPic}
+\bibAnnote{wikiPic}{Provided an image of circuarly polarized light.}
 
-\bibitem{HDS}
-K.~Curtis, L.~Dhar, A.~Hill, W.~Wilson and M.~Ayres, \emph{{Holographic data
-  storage}} (Wiley Online Library, 2010)
-\bibAnnoteFile{HDS}
-
-\bibitem{optics}
-F.~L. Pedrotti, L.~S. Pedrotti and L.~M. Pedrotti, \emph{{Introduction to
-  Optics}} (Pearson Addison Wesley, 2007)
-\bibAnnoteFile{optics}
+\bibitem{modernPhysics}
+J.~R. Taylor, M.~A. Dubson and C.~D. Zafiratos, \emph{{Modern physics for
+  scientists and engineers}} (Prentice-Hall, 2004)
+\bibAnnote{modernPhysics}{I mainly used this to look up pictures of domains and
+  definitions of domains.}
 
 \bibitem{purcell}
 E.~M. Purcell and D.~J. Morin, \emph{{Electricity and Magnetism}}, 3rd ed.
@@ -51,33 +58,32 @@ E.~M. Purcell and D.~J. Morin, \emph{{Electricity and Magnetism}}, 3rd ed.
 \bibitem{gmr}
 \emph{{Giant magnetoresistance}}  (2013),
   \urlprefix\url{http://physicscentral.com/explore/action/magnetoresistance.cfm}
-\bibAnnoteFile{gmr}
+\bibAnnote{gmr}{I used for both a diagram of a GMR and also to explain the
+  reason why electron spin is effected by magnetic field..}
 
 \bibitem{perpendicular}
 S.~N. Piramanayagam, \emph{{Perpendicular recording media for hard disk
   drives}}, Journal of Applied Physics \textbf{102} (2007)~(1), p. 11301
-\bibAnnoteFile{perpendicular}
+\bibAnnote{perpendicular}{This paper provided an overview of how perpendicular
+  magnetic storage is implemented and briefly touched on the super
+  paramagnetism limit.}
 
 \bibitem{hamr}
 L.~Pan and D.~B. Bogy, \emph{{Data storage: Heat-assisted magnetic recording}},
   Nature Photonics \textbf{3} (2009)~(4), pp. 189--190
-\bibAnnoteFile{hamr}
+\bibAnnote{hamr}{This provided an overview of HAMR technology specifically why
+  it is able to achieve such high density rates.}
 
 \bibitem{thermo}
 K.~Stowe, \emph{{An Introduction to Thermodynamics and Statistical Mechanics}}
   (Cambridge Univeristy Press, 2007)
-\bibAnnoteFile{thermo}
+\bibAnnote{thermo}{This was used mainly to learn what happened when a p type
+  and n type semiconductor are brought together.}
 
-\bibitem{modernPhysics}
-J.~R. Taylor, M.~A. Dubson and C.~D. Zafiratos, \emph{{Modern physics for
-  scientists and engineers}} (Prentice-Hall, 2004)
-\bibAnnoteFile{modernPhysics}
-
-\bibitem{probe}
-A.~Pantazi, A.~Sebastian, T.~A. Antonakopoulos, P.~B\"{a}chtold, A.~R.
-  Bonaccio, J.~Bonan, G.~Cherubini, M.~Despont, R.~A. DiPietro, U.~Drechsler
-  and Others, \emph{{Probe-based ultrahigh-density storage technology}}, IBM
-  Journal of Research and Development \textbf{52} (2008)~(4.5), pp. 493--511
-\bibAnnoteFile{probe}
+\bibitem{HDS}
+K.~Curtis, L.~Dhar, A.~Hill, W.~Wilson and M.~Ayres, \emph{{Holographic data
+  storage}} (Wiley Online Library, 2010)
+\bibAnnote{HDS}{This book provided an overiew of how holograms are created and
+  also how higher densities can be achived using multiplexing.}
 
 \end{thebibliography}
