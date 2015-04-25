@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.14)  24 APR 2015 16:43
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.14)  25 APR 2015 12:33
 entering extended mode
 **C:/Users/Rigden/Documents/GitHub/Comps/comps.tex
 (C:/Users/Rigden/Documents/GitHub/Comps/comps.tex
@@ -261,180 +261,212 @@ LaTeX Font Info:    ... okay on input line 10.
 <cdRom.png, id=10, 225.84375pt x 264.99pt>
 File: cdRom.png Graphic file (type png)
  <use cdRom.png>
-Package pdftex.def Info: cdRom.png used on input line 40.
+Package pdftex.def Info: cdRom.png used on input line 34.
 (pdftex.def)             Requested size: 203.25748pt x 238.48878pt.
- [2] [3 <C:/Users/Rigden/Documents/GitHub/Comps/cdRom.png>] [4]
-<cdR.png, id=27, 801.74532pt x 472.01344pt>
+ [2 <C:/Users/Rigden/Documents/GitHub/Comps/cdRom.png>] [3] [4]
+<cdR.png, id=26, 801.74532pt x 472.01344pt>
 File: cdR.png Graphic file (type png)
  <use cdR.png>
-Package pdftex.def Info: cdR.png used on input line 110.
+Package pdftex.def Info: cdR.png used on input line 105.
 (pdftex.def)             Requested size: 360.78206pt x 212.40408pt.
- [5 <C:/Users/Rigden/Documents/GitHub/Comps/cdR.png>] <bessel.jpg, id=31, 654.1
-9406pt x 758.08218pt>
-File: bessel.jpg Graphic file (type jpg)
 
-<use bessel.jpg>
-Package pdftex.def Info: bessel.jpg used on input line 124.
-(pdftex.def)             Requested size: 294.3846pt x 341.13382pt.
-
-
-Package natbib Warning: Citation `optics.' on page 6 undefined on input line 12
-5.
-
-[6] [7 <C:/Users/Rigden/Documents/GitHub/Comps/bessel.jpg>]
-<220px-Airy-pattern.jpg, id=41, 111.41624pt x 109.1578pt>
+<220px-Airy-pattern.jpg, id=27, 111.41624pt x 109.1578pt>
 File: 220px-Airy-pattern.jpg Graphic file (type jpg)
 
 <use 220px-Airy-pattern.jpg>
-Package pdftex.def Info: 220px-Airy-pattern.jpg used on input line 173.
-(pdftex.def)             Requested size: 222.83194pt x 218.31506pt.
- [8]
-<criterion.png, id=45, 368.37625pt x 564.1075pt>
+Package pdftex.def Info: 220px-Airy-pattern.jpg used on input line 114.
+(pdftex.def)             Requested size: 167.12395pt x 163.7363pt.
+ [5 <C:/Users/Rigden/Documents/GitHub/Comps/cdR.png>] <bessel.jpg, id=32, 654.1
+9406pt x 758.08218pt>
+File: bessel.jpg Graphic file (type jpg)
+ <use bessel.jpg>
+Package pdftex.def Info: bessel.jpg used on input line 126.
+(pdftex.def)             Requested size: 130.83649pt x 151.61374pt.
+ [6 <C:/Users/Rigden/Documents/GitHub/Comps/220px-Airy-pattern.jpg> <C:/Users/R
+igden/Documents/GitHub/Comps/bessel.jpg>] <criterion.png, id=38, 298.11375pt x 
+423.08063pt>
 File: criterion.png Graphic file (type png)
- <use criterion.png>
-Package pdftex.def Info: criterion.png used on input line 179.
-(pdftex.def)             Requested size: 165.76778pt x 253.84602pt.
- [9 <C:/Users/Rigden/Documents/GitHub/Comps/220px-Airy-pattern.jpg> <C:/Users/R
-igden/Documents/GitHub/Comps/criterion.png>] <DVD.png, id=50, 733.99219pt x 673
-.01437pt>
-File: DVD.png Graphic file (type png)
 
-<use DVD.png>
-Package pdftex.def Info: DVD.png used on input line 188.
-(pdftex.def)             Requested size: 330.29343pt x 302.85367pt.
- <cdPlay.png, id=51, 450.18187pt x 374.90062pt>
+<use criterion.png>
+Package pdftex.def Info: criterion.png used on input line 157.
+(pdftex.def)             Requested size: 134.14995pt x 190.38452pt.
+ [7] <comparison.jpg, id=43, 951.555pt x 444.91219pt>
+File: comparison.jpg Graphic file (type jpg)
+
+<use comparison.jpg>
+Package pdftex.def Info: comparison.jpg used on input line 180.
+(pdftex.def)             Requested size: 523.35687pt x 244.70245pt.
+ [8 <C:/Users/Rigden/Documents/GitHub/Comps/criterion.png>] [9 <C:/Users/Rigden
+/Documents/GitHub/Comps/comparison.jpg>]
+<DVD.png, id=51, 733.99219pt x 673.01437pt>
+File: DVD.png Graphic file (type png)
+ <use DVD.png>
+Package pdftex.def Info: DVD.png used on input line 190.
+(pdftex.def)             Requested size: 366.9952pt x 336.50636pt.
+
+<cdPlay.png, id=52, 450.18187pt x 374.90062pt>
 File: cdPlay.png Graphic file (type png)
  <use cdPlay.png>
-Package pdftex.def Info: cdPlay.png used on input line 196.
+Package pdftex.def Info: cdPlay.png used on input line 200.
 (pdftex.def)             Requested size: 270.1112pt x 224.94211pt.
-
-[10 <C:/Users/Rigden/Documents/GitHub/Comps/DVD.png>]
-<polcir.png, id=55, 371.13657pt x 249.93375pt>
+ [10 <C:/Users/Rigden/Documents/GitHub/Comps/DVD.png>]
+<polcir.png, id=56, 371.13657pt x 249.93375pt>
 File: polcir.png Graphic file (type png)
  <use polcir.png>
 Package pdftex.def Info: polcir.png used on input line 206.
 (pdftex.def)             Requested size: 259.79381pt x 174.95242pt.
- [11 <C:/Users/Rigden/Documents/GitHub/Comps/cdPlay.png>]
-<prism.png, id=60, 381.67593pt x 214.55156pt>
+
+<prism.png, id=57, 381.67593pt x 214.55156pt>
 File: prism.png Graphic file (type png)
  <use prism.png>
-Package pdftex.def Info: prism.png used on input line 218.
+Package pdftex.def Info: prism.png used on input line 213.
 (pdftex.def)             Requested size: 305.34116pt x 171.64146pt.
- [12 <C:/Users/Rigden/Documents/GitHub/Comps/polcir.png> <C:/Users/Rigden/Docum
-ents/GitHub/Comps/prism.png>] <focus.png, id=66, 368.1253pt x 256.70906pt>
+ [11 <C:/Users/Rigden/Documents/GitHub/Comps/cdPlay.png> <C:/Users/Rigden/Docum
+ents/GitHub/Comps/polcir.png>] [12 <C:/Users/Rigden/Documents/GitHub/Comps/pris
+m.png>]
+<focus.png, id=67, 368.1253pt x 256.70906pt>
 File: focus.png Graphic file (type png)
  <use focus.png>
-Package pdftex.def Info: focus.png used on input line 230.
+Package pdftex.def Info: focus.png used on input line 224.
 (pdftex.def)             Requested size: 257.68596pt x 179.6951pt.
 
-[13 <C:/Users/Rigden/Documents/GitHub/Comps/focus.png>]
-<domains.png, id=72, 325.215pt x 423.08063pt>
+<rayDiagram.png, id=68, 313.17pt x 386.19281pt>
+File: rayDiagram.png Graphic file (type png)
+ <use rayDiagram.png>
+Package pdftex.def Info: rayDiagram.png used on input line 230.
+(pdftex.def)             Requested size: 156.58461pt x 193.09592pt.
+ [13 <C:/Users/Rigden/Documents/GitHub/Comps/focus.png> <C:/Users/Rigden/Docume
+nts/GitHub/Comps/rayDiagram.png>] <bandGap.png, id=75, 504.38437pt x 284.56313p
+t>
+File: bandGap.png Graphic file (type png)
+
+<use bandGap.png>
+Package pdftex.def Info: bandGap.png used on input line 243.
+(pdftex.def)             Requested size: 176.53717pt x 99.59857pt.
+ [14 <C:/Users/Rigden/Documents/GitHub/Comps/bandGap.png>]
+<pnJunction.png, id=80, 457.71pt x 588.69937pt>
+File: pnJunction.png Graphic file (type png)
+ <use pnJunction.png>
+Package pdftex.def Info: pnJunction.png used on input line 257.
+(pdftex.def)             Requested size: 228.85445pt x 294.34895pt.
+ [15]
+[16 <C:/Users/Rigden/Documents/GitHub/Comps/pnJunction.png>]
+<mosfet.png, id=87, 486.31688pt x 587.19376pt>
+File: mosfet.png Graphic file (type png)
+ <use mosfet.png>
+Package pdftex.def Info: mosfet.png used on input line 268.
+(pdftex.def)             Requested size: 218.84056pt x 264.23474pt.
+ [17 <C:/Users/Rigden/Documents/GitHub/Comps/mosfet.png>]
+<domains.png, id=92, 325.215pt x 309.40594pt>
 File: domains.png Graphic file (type png)
  <use domains.png>
-Package pdftex.def Info: domains.png used on input line 241.
-(pdftex.def)             Requested size: 162.6071pt x 211.5398pt.
- [14 <C:/Users/Rigden/Documents/GitHub/Comps/domains.png>]
-<hysteresis.png, id=77, 462.97969pt x 497.60907pt>
+Package pdftex.def Info: domains.png used on input line 285.
+(pdftex.def)             Requested size: 178.86879pt x 170.17378pt.
+
+<hysteresis.png, id=93, 462.97969pt x 497.60907pt>
 File: hysteresis.png Graphic file (type png)
  <use hysteresis.png>
-Package pdftex.def Info: hysteresis.png used on input line 250.
-(pdftex.def)             Requested size: 208.33893pt x 223.92201pt.
+Package pdftex.def Info: hysteresis.png used on input line 291.
+(pdftex.def)             Requested size: 185.18858pt x 199.0401pt.
 
-<basic.png, id=78, 550.30594pt x 377.15906pt>
+[18 <C:/Users/Rigden/Documents/GitHub/Comps/domains.png>] [19 <C:/Users/Rigden/
+Documents/GitHub/Comps/hysteresis.png>]
+<basic.png, id=102, 550.30594pt x 377.15906pt>
 File: basic.png Graphic file (type png)
  <use basic.png>
-Package pdftex.def Info: basic.png used on input line 270.
+Package pdftex.def Info: basic.png used on input line 301.
 (pdftex.def)             Requested size: 247.63538pt x 169.72pt.
- [15 <C:/Users/Rigden/Documents/GitHub/Comps/hysteresis.png>] [16 <C:/Users/Rig
-den/Documents/GitHub/Comps/basic.png>] <gmr2.png, id=86, 590.205pt x 397.485pt>
+ [20 <C:/Users/Rigden/Documents/GitHub/Comps/basic.png>]
+<solenoid.png, id=108, 319.1925pt x 245.41687pt>
+File: solenoid.png Graphic file (type png)
+ <use solenoid.png>
+Package pdftex.def Info: solenoid.png used on input line 318.
+(pdftex.def)             Requested size: 175.55641pt x 134.97969pt.
+ [21 <C:/Users/Rigden/Documents/GitHub/Comps/solenoid.png>]
+<exchange.png, id=112, 268.75406pt x 612.03656pt>
+File: exchange.png Graphic file (type png)
+ <use exchange.png>
+Package pdftex.def Info: exchange.png used on input line 338.
+(pdftex.def)             Requested size: 120.9382pt x 275.41391pt.
+ [22]
+<gmr2.png, id=116, 590.205pt x 397.485pt>
 File: gmr2.png Graphic file (type png)
  <use gmr2.png>
-Package pdftex.def Info: gmr2.png used on input line 281.
+Package pdftex.def Info: gmr2.png used on input line 344.
 (pdftex.def)             Requested size: 265.58978pt x 178.8666pt.
-
-[17 <C:/Users/Rigden/Documents/GitHub/Comps/gmr2.png>]
-
-LaTeX Warning: Reference `highDensity' on page 18 undefined on input line 294.
-
-<perpendicularComparison.png, id=90, 825.0825pt x 506.6428pt>
+ [23 <C:/Users/Rigden/Documents/GitHub/Comps/exchange.png>] [24 <C:/Users/Rigde
+n/Documents/GitHub/Comps/gmr2.png>] <perpendicularComparison.png, id=123, 825.0
+825pt x 506.6428pt>
 File: perpendicularComparison.png Graphic file (type png)
 
 <use perpendicularComparison.png>
-Package pdftex.def Info: perpendicularComparison.png used on input line 297.
+Package pdftex.def Info: perpendicularComparison.png used on input line 359.
 (pdftex.def)             Requested size: 371.28369pt x 227.98715pt.
- [18] [19 <C:/Users/Rigden/Documents/GitHub/Comps/perpendicularComparison.png>]
-
-<bandGap.png, id=99, 504.38437pt x 284.56313pt>
-File: bandGap.png Graphic file (type png)
- <use bandGap.png>
-Package pdftex.def Info: bandGap.png used on input line 315.
-(pdftex.def)             Requested size: 226.97086pt x 128.05222pt.
- [20 <C:/Users/Rigden/Documents/GitHub/Comps/bandGap.png>]
-<pnJunction.png, id=104, 457.71pt x 588.69937pt>
-File: pnJunction.png Graphic file (type png)
- <use pnJunction.png>
-Package pdftex.def Info: pnJunction.png used on input line 327.
-(pdftex.def)             Requested size: 320.39482pt x 412.08675pt.
- [21]
-[22 <C:/Users/Rigden/Documents/GitHub/Comps/pnJunction.png>]
-<mosfet.png, id=111, 486.31688pt x 587.19376pt>
-File: mosfet.png Graphic file (type png)
- <use mosfet.png>
-Package pdftex.def Info: mosfet.png used on input line 342.
-(pdftex.def)             Requested size: 218.84056pt x 264.23474pt.
- [23] [24 <C:/Users/Rigden/Documents/GitHub/Comps/mosfet.png>]
-<create.png, id=119, 831.105pt x 480.29437pt>
+ [25 <C:/Users/Rigden/Documents/GitHub/Comps/perpendicularComparison.png>] <cre
+ate.png, id=129, 831.105pt x 480.29437pt>
 File: create.png Graphic file (type png)
- <use create.png>
-Package pdftex.def Info: create.png used on input line 358.
-(pdftex.def)             Requested size: 373.99379pt x 216.13046pt.
- [25]
-<reconstruct.png, id=124, 549.55313pt x 588.69937pt>
-File: reconstruct.png Graphic file (type png)
- <use reconstruct.png>
-Package pdftex.def Info: reconstruct.png used on input line 366.
-(pdftex.def)             Requested size: 247.29662pt x 264.91226pt.
 
-[26 <C:/Users/Rigden/Documents/GitHub/Comps/create.png>]
-<eRefMath.jpg, id=128, 1499.6025pt x 1999.47pt>
+<use create.png>
+Package pdftex.def Info: create.png used on input line 375.
+(pdftex.def)             Requested size: 373.99379pt x 216.13046pt.
+ [26 <C:/Users/Rigden/Documents/GitHub/Comps/create.png>]
+<eRefMath.jpg, id=133, 1499.6025pt x 1999.47pt>
 File: eRefMath.jpg Graphic file (type jpg)
  <use eRefMath.jpg>
 Package pdftex.def Info: eRefMath.jpg used on input line 388.
 (pdftex.def)             Requested size: 179.94453pt x 239.92604pt.
- [27 <C:/Users/Rigden/Documents/GitHub/Comps/reconstruct.png>] [28 <C:/Users/Ri
-gden/Documents/GitHub/Comps/eRefMath.jpg>]
-<dataHologramCreate.png, id=135, 552.56438pt x 317.68687pt>
+ [27 <C:/Users/Rigden/Documents/GitHub/Comps/eRefMath.jpg>]
+<reconstruct.png, id=137, 549.55313pt x 588.69937pt>
+File: reconstruct.png Graphic file (type png)
+ <use reconstruct.png>
+Package pdftex.def Info: reconstruct.png used on input line 421.
+(pdftex.def)             Requested size: 247.29662pt x 264.91226pt.
+
+[28 <C:/Users/Rigden/Documents/GitHub/Comps/reconstruct.png>]
+
+LaTeX Warning: Reference `eObi' on page 29 undefined on input line 430.
+
+<dataHologramCreate.png, id=141, 453.94594pt x 357.58594pt>
 File: dataHologramCreate.png Graphic file (type png)
 
 <use dataHologramCreate.png>
-Package pdftex.def Info: dataHologramCreate.png used on input line 439.
-(pdftex.def)             Requested size: 248.65166pt x 142.95776pt.
+Package pdftex.def Info: dataHologramCreate.png used on input line 442.
+(pdftex.def)             Requested size: 204.27377pt x 160.91217pt.
  [29]
-<dataHologramReconstruct.png, id=139, 597.73312pt x 331.2375pt>
+<dataHologramReconstruct.png, id=145, 529.22719pt x 335.00156pt>
 File: dataHologramReconstruct.png Graphic file (type png)
 
 <use dataHologramReconstruct.png>
-Package pdftex.def Info: dataHologramReconstruct.png used on input line 445.
-(pdftex.def)             Requested size: 268.97742pt x 149.05548pt.
+Package pdftex.def Info: dataHologramReconstruct.png used on input line 448.
+(pdftex.def)             Requested size: 238.15002pt x 150.7493pt.
  [30 <C:/Users/Rigden/Documents/GitHub/Comps/dataHologramCreate.png> <C:/Users/
-Rigden/Documents/GitHub/Comps/dataHologramReconstruct.png>] [31] (C:\Users\Rigd
-en\Documents\GitHub\Comps\comps.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 25--29
+Rigden/Documents/GitHub/Comps/dataHologramReconstruct.png>] (C:\Users\Rigden\Do
+cuments\GitHub\Comps\comps.bbl [31]
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
 \OT1/cmr/m/n/10 URL: $\OT1/cmtt/m/n/10 http : / / cdn . cambridgeincolour . com
  / images / tutorials / airydisk-[]rings . jpg ,[] ANNOTE =$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--34
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
 \OT1/cmr/m/n/10 URL: $\OT1/cmtt/m/n/10 http : / / upload . wikimedia . org / wi
 kipedia / commons / a / ae / Airy \ _disk \ _spacing \ _near \$
  []
 
-[32])
+[32] [33]
+Overfull \hbox (147.41185pt too wide) in paragraph at lines 143--147
+\OT1/cmr/m/n/10 URL: $\OT1/cmtt/m/n/10 http : / / www . extremetech . com / com
+puting / 122921-[]seagate-[]hits-[]1-[]terabit-[]per-[]square-[]inch-[]60tb-[]d
+rives-[]on-[]their-[]way$ 
+ []
 
-Package natbib Warning: There were undefined citations.
-
-[33] (C:\Users\Rigden\Documents\GitHub\Comps\comps.aux)
+) <ascii.png, id=163, 974.13937pt x 653.44125pt>
+File: ascii.png Graphic file (type png)
+ <use ascii.png>
+Package pdftex.def Info: ascii.png used on input line 470.
+(pdftex.def)             Requested size: 438.35867pt x 294.04584pt.
+ [34] [35 <C:/Users/Rigden/Documents/GitHub/Comps/ascii.png>]
+(C:\Users\Rigden\Documents\GitHub\Comps\comps.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -443,19 +475,19 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4060 strings out of 493921
- 52411 string characters out of 3144873
- 123314 words of memory out of 3000000
- 7317 multiletter control sequences out of 15000+200000
+ 4118 strings out of 493921
+ 53360 string characters out of 3144873
+ 124750 words of memory out of 3000000
+ 7370 multiletter control sequences out of 15000+200000
  9543 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,15n,29p,1689b,357s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,15n,29p,1880b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MikTex 2.8/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MikTex 2.8/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MikTex 2.8/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
 /Program Files (x86)/MikTex 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/P
 rogram Files (x86)/MikTex 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
-gram Files (x86)/MikTex 2.8/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Progra
+gram Files (x86)/MikTex 2.8/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Progra
 m Files (x86)/MikTex 2.8/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program F
 iles (x86)/MikTex 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
 s (x86)/MikTex 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x
@@ -464,9 +496,9 @@ MikTex 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
 kTex 2.8/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MikTe
 x 2.8/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MikTex 
 2.8/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on comps.pdf (33 pages, 2492905 bytes).
+Output written on comps.pdf (35 pages, 3076549 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
+ 214 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
