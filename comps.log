@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.14)  25 APR 2015 12:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.14)  13 MAY 2015 13:16
 entering extended mode
 **C:/Users/Rigden/Documents/GitHub/Comps/comps.tex
 (C:/Users/Rigden/Documents/GitHub/Comps/comps.tex
@@ -178,6 +178,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+("C:\Program Files (x86)\MikTex 2.8\tex\latex\appendix\appendix.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count108
+\c@@ppsavesec=\count109
+\c@@ppsaveapp=\count110
+)
 ("C:\Program Files (x86)\MikTex 2.8\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -205,283 +211,448 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files (x86)\MikTex 2.8\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count108
+\Gread@gobject=\count111
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
+("C:\Program Files (x86)\MikTex 2.8\tex\latex\breakurl\breakurl.sty"
+Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
+
+("C:\Program Files (x86)\MikTex 2.8\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+("C:\Program Files (x86)\MikTex 2.8\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+\XKV@depth=\count112
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+("C:\Program Files (x86)\MikTex 2.8\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+
+Package breakurl Warning: You are using breakurl while processing via pdflatex.
+
+(breakurl)                \burl will be just a synonym of \url.
+(breakurl)                 on input line 48.
+
+) ("C:\Program Files (x86)\MikTex 2.8\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MikTex 2.8\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MikTex 2.8\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MikTex 2.8\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files (x86)\MikTex 2.8\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files (x86)\MikTex 2.8\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen113
+\Hy@linkcounter=\count113
+\Hy@pagecounter=\count114
+
+("C:\Program Files (x86)\MikTex 2.8\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count115
+
+("C:\Program Files (x86)\MikTex 2.8\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+LaTeX Info: Redefining \href on input line 4952.
+\c@Hy@tempcnt=\count116
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen114
+\Fld@menulength=\count117
+\Field@Width=\dimen115
+\Fld@charsize=\dimen116
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count118
+\c@Item=\count119
+\c@Hfootnote=\count120
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MikTex 2.8\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count121
+\c@bookmark@seq@number=\count122
+
+("C:\Program Files (x86)\MikTex 2.8\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip49
+)
 ("C:\Program Files (x86)\MikTex 2.8\tex\latex\mdwtools\sverb.sty"
 Package: sverb 1996/05/08 1.3 Verbatim typesetting
-\svtab=\dimen113
-\listingindent=\dimen114
+\svtab=\dimen117
+\listingindent=\dimen118
 \sv@writefile=\write4
-\sv@nestcount=\count109
+\sv@nestcount=\count123
 )
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 10.
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 15.
 
 
 Class revtex4-1 Warning: Repair the float package.
 
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 10.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 15.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 10.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 10.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 10.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 15.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 15.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 15.
 (C:\Users\Rigden\Documents\GitHub\Comps\comps.aux
 
 LaTeX Warning: Label `iInf2' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
  ("C:\Program Files (x86)\MikTex 2.8\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen115
+\scratchcounter=\count124
+\scratchdimen=\dimen119
 \scratchbox=\box45
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen116
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks25
-) [1{C:/Users/Rigden/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<cdRom.png, id=10, 225.84375pt x 264.99pt>
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen120
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks27
+)
+\AtBeginShipoutBox=\box46
+Package hyperref Info: Link coloring OFF on input line 15.
+ ("C:\Program Files (x86)\MikTex 2.8\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MikTex 2.8\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count130
+)
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
+
+(C:\Users\Rigden\Documents\GitHub\Comps\comps.out)
+(C:\Users\Rigden\Documents\GitHub\Comps\comps.out)
+\@outlinefile=\write5
+Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 15.
+ [1{C:/Users/Rigden/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<cdRom.png, id=85, 225.84375pt x 264.99pt>
 File: cdRom.png Graphic file (type png)
  <use cdRom.png>
-Package pdftex.def Info: cdRom.png used on input line 34.
+Package pdftex.def Info: cdRom.png used on input line 39.
 (pdftex.def)             Requested size: 203.25748pt x 238.48878pt.
  [2 <C:/Users/Rigden/Documents/GitHub/Comps/cdRom.png>] [3] [4]
-<cdR.png, id=26, 801.74532pt x 472.01344pt>
+<cdR.png, id=129, 801.74532pt x 472.01344pt>
 File: cdR.png Graphic file (type png)
  <use cdR.png>
-Package pdftex.def Info: cdR.png used on input line 105.
+Package pdftex.def Info: cdR.png used on input line 110.
 (pdftex.def)             Requested size: 360.78206pt x 212.40408pt.
 
-<220px-Airy-pattern.jpg, id=27, 111.41624pt x 109.1578pt>
+<220px-Airy-pattern.jpg, id=132, 111.41624pt x 109.1578pt>
 File: 220px-Airy-pattern.jpg Graphic file (type jpg)
 
 <use 220px-Airy-pattern.jpg>
-Package pdftex.def Info: 220px-Airy-pattern.jpg used on input line 114.
+Package pdftex.def Info: 220px-Airy-pattern.jpg used on input line 119.
 (pdftex.def)             Requested size: 167.12395pt x 163.7363pt.
- [5 <C:/Users/Rigden/Documents/GitHub/Comps/cdR.png>] <bessel.jpg, id=32, 654.1
-9406pt x 758.08218pt>
-File: bessel.jpg Graphic file (type jpg)
- <use bessel.jpg>
-Package pdftex.def Info: bessel.jpg used on input line 126.
-(pdftex.def)             Requested size: 130.83649pt x 151.61374pt.
+ [5 <C:/Users/Rigden/Documents/GitHub/Comps/cdR.png>] <fraunD.jpg, id=145, 1200
+.485pt x 900.36375pt>
+File: fraunD.jpg Graphic file (type jpg)
+ <use fraunD.jpg>
+Package pdftex.def Info: fraunD.jpg used on input line 126.
+(pdftex.def)             Requested size: 240.09274pt x 180.06955pt.
  [6 <C:/Users/Rigden/Documents/GitHub/Comps/220px-Airy-pattern.jpg> <C:/Users/R
-igden/Documents/GitHub/Comps/bessel.jpg>] <criterion.png, id=38, 298.11375pt x 
-423.08063pt>
+igden/Documents/GitHub/Comps/fraunD.jpg>] <bessel.jpg, id=158, 654.19406pt x 75
+8.08218pt>
+File: bessel.jpg Graphic file (type jpg)
+
+<use bessel.jpg>
+Package pdftex.def Info: bessel.jpg used on input line 147.
+(pdftex.def)             Requested size: 130.83649pt x 151.61374pt.
+ <criterion.png, id=164, 298.11375pt x 423.08063pt>
 File: criterion.png Graphic file (type png)
 
 <use criterion.png>
-Package pdftex.def Info: criterion.png used on input line 157.
+Package pdftex.def Info: criterion.png used on input line 168.
 (pdftex.def)             Requested size: 134.14995pt x 190.38452pt.
- [7] <comparison.jpg, id=43, 951.555pt x 444.91219pt>
+ [7 <C:/Users/Rigden/Documents/GitHub/Comps/bessel.jpg>]
+[8 <C:/Users/Rigden/Documents/GitHub/Comps/criterion.png>]
+<comparison.jpg, id=195, 951.555pt x 444.91219pt>
 File: comparison.jpg Graphic file (type jpg)
-
-<use comparison.jpg>
-Package pdftex.def Info: comparison.jpg used on input line 180.
+ <use comparison.jpg>
+Package pdftex.def Info: comparison.jpg used on input line 195.
 (pdftex.def)             Requested size: 523.35687pt x 244.70245pt.
- [8 <C:/Users/Rigden/Documents/GitHub/Comps/criterion.png>] [9 <C:/Users/Rigden
-/Documents/GitHub/Comps/comparison.jpg>]
-<DVD.png, id=51, 733.99219pt x 673.01437pt>
+
+<DVD.png, id=202, 733.99219pt x 673.01437pt>
 File: DVD.png Graphic file (type png)
  <use DVD.png>
-Package pdftex.def Info: DVD.png used on input line 190.
-(pdftex.def)             Requested size: 366.9952pt x 336.50636pt.
-
-<cdPlay.png, id=52, 450.18187pt x 374.90062pt>
+Package pdftex.def Info: DVD.png used on input line 202.
+(pdftex.def)             Requested size: 330.29343pt x 302.85367pt.
+ [9 <C:/Users/Rigden/Documents/GitHub/Comps/comparison.jpg>] [10 <C:/Users/Rigd
+en/Documents/GitHub/Comps/DVD.png>] <cdPlay.png, id=220, 450.18187pt x 374.9006
+2pt>
 File: cdPlay.png Graphic file (type png)
- <use cdPlay.png>
-Package pdftex.def Info: cdPlay.png used on input line 200.
-(pdftex.def)             Requested size: 270.1112pt x 224.94211pt.
- [10 <C:/Users/Rigden/Documents/GitHub/Comps/DVD.png>]
-<polcir.png, id=56, 371.13657pt x 249.93375pt>
-File: polcir.png Graphic file (type png)
- <use polcir.png>
-Package pdftex.def Info: polcir.png used on input line 206.
-(pdftex.def)             Requested size: 259.79381pt x 174.95242pt.
 
-<prism.png, id=57, 381.67593pt x 214.55156pt>
+<use cdPlay.png>
+Package pdftex.def Info: cdPlay.png used on input line 216.
+(pdftex.def)             Requested size: 360.14598pt x 299.9209pt.
+ <polcir.png, id=225, 371.13657pt x 249.93375pt>
+File: polcir.png Graphic file (type png)
+
+<use polcir.png>
+Package pdftex.def Info: polcir.png used on input line 222.
+(pdftex.def)             Requested size: 371.13565pt x 249.93314pt.
+ [11 <C:/Users/Rigden/Documents/GitHub/Comps/cdPlay.png>]
+<prism.png, id=236, 381.67593pt x 214.55156pt>
 File: prism.png Graphic file (type png)
  <use prism.png>
-Package pdftex.def Info: prism.png used on input line 213.
-(pdftex.def)             Requested size: 305.34116pt x 171.64146pt.
- [11 <C:/Users/Rigden/Documents/GitHub/Comps/cdPlay.png> <C:/Users/Rigden/Docum
-ents/GitHub/Comps/polcir.png>] [12 <C:/Users/Rigden/Documents/GitHub/Comps/pris
-m.png>]
-<focus.png, id=67, 368.1253pt x 256.70906pt>
+Package pdftex.def Info: prism.png used on input line 229.
+(pdftex.def)             Requested size: 419.84482pt x 236.00743pt.
+ [12 <C:/Users/Rigden/Documents/GitHub/Comps/polcir.png>]
+<focus.png, id=251, 368.1253pt x 256.70906pt>
 File: focus.png Graphic file (type png)
  <use focus.png>
-Package pdftex.def Info: focus.png used on input line 224.
+Package pdftex.def Info: focus.png used on input line 240.
 (pdftex.def)             Requested size: 257.68596pt x 179.6951pt.
-
-<rayDiagram.png, id=68, 313.17pt x 386.19281pt>
+ [13 <C:/Users/Rigden/Documents/GitHub/Comps/prism.png>]
+<rayDiagram.png, id=262, 313.17pt x 386.19281pt>
 File: rayDiagram.png Graphic file (type png)
  <use rayDiagram.png>
-Package pdftex.def Info: rayDiagram.png used on input line 230.
+Package pdftex.def Info: rayDiagram.png used on input line 246.
 (pdftex.def)             Requested size: 156.58461pt x 193.09592pt.
- [13 <C:/Users/Rigden/Documents/GitHub/Comps/focus.png> <C:/Users/Rigden/Docume
-nts/GitHub/Comps/rayDiagram.png>] <bandGap.png, id=75, 504.38437pt x 284.56313p
-t>
+ [14 <C:/Users/Rigden/Documents/GitHub/Comps/focus.png> <C:/Users/Rigden/Docume
+nts/GitHub/Comps/rayDiagram.png>] <bandGap.png, id=273, 504.38437pt x 284.56313
+pt>
 File: bandGap.png Graphic file (type png)
 
 <use bandGap.png>
-Package pdftex.def Info: bandGap.png used on input line 243.
-(pdftex.def)             Requested size: 176.53717pt x 99.59857pt.
- [14 <C:/Users/Rigden/Documents/GitHub/Comps/bandGap.png>]
-<pnJunction.png, id=80, 457.71pt x 588.69937pt>
+Package pdftex.def Info: bandGap.png used on input line 259.
+(pdftex.def)             Requested size: 302.63295pt x 170.73918pt.
+ [15 <C:/Users/Rigden/Documents/GitHub/Comps/bandGap.png>]
+<pnJunction.png, id=286, 457.71pt x 588.69937pt>
 File: pnJunction.png Graphic file (type png)
  <use pnJunction.png>
-Package pdftex.def Info: pnJunction.png used on input line 257.
+Package pdftex.def Info: pnJunction.png used on input line 273.
 (pdftex.def)             Requested size: 228.85445pt x 294.34895pt.
- [15]
-[16 <C:/Users/Rigden/Documents/GitHub/Comps/pnJunction.png>]
-<mosfet.png, id=87, 486.31688pt x 587.19376pt>
+ [16]
+[17 <C:/Users/Rigden/Documents/GitHub/Comps/pnJunction.png>]
+<mosfet.png, id=302, 486.31688pt x 587.19376pt>
 File: mosfet.png Graphic file (type png)
  <use mosfet.png>
-Package pdftex.def Info: mosfet.png used on input line 268.
+Package pdftex.def Info: mosfet.png used on input line 284.
 (pdftex.def)             Requested size: 218.84056pt x 264.23474pt.
- [17 <C:/Users/Rigden/Documents/GitHub/Comps/mosfet.png>]
-<domains.png, id=92, 325.215pt x 309.40594pt>
+ [18 <C:/Users/Rigden/Documents/GitHub/Comps/mosfet.png>]
+<domains.png, id=312, 325.215pt x 309.40594pt>
 File: domains.png Graphic file (type png)
  <use domains.png>
-Package pdftex.def Info: domains.png used on input line 285.
+Package pdftex.def Info: domains.png used on input line 301.
 (pdftex.def)             Requested size: 178.86879pt x 170.17378pt.
 
-<hysteresis.png, id=93, 462.97969pt x 497.60907pt>
+<hysteresis.png, id=316, 462.97969pt x 497.60907pt>
 File: hysteresis.png Graphic file (type png)
  <use hysteresis.png>
-Package pdftex.def Info: hysteresis.png used on input line 291.
+Package pdftex.def Info: hysteresis.png used on input line 307.
 (pdftex.def)             Requested size: 185.18858pt x 199.0401pt.
 
-[18 <C:/Users/Rigden/Documents/GitHub/Comps/domains.png>] [19 <C:/Users/Rigden/
+[19 <C:/Users/Rigden/Documents/GitHub/Comps/domains.png>] [20 <C:/Users/Rigden/
 Documents/GitHub/Comps/hysteresis.png>]
-<basic.png, id=102, 550.30594pt x 377.15906pt>
+<basic.png, id=333, 550.30594pt x 377.15906pt>
 File: basic.png Graphic file (type png)
  <use basic.png>
-Package pdftex.def Info: basic.png used on input line 301.
-(pdftex.def)             Requested size: 247.63538pt x 169.72pt.
- [20 <C:/Users/Rigden/Documents/GitHub/Comps/basic.png>]
-<solenoid.png, id=108, 319.1925pt x 245.41687pt>
+Package pdftex.def Info: basic.png used on input line 317.
+(pdftex.def)             Requested size: 302.6692pt x 207.43813pt.
+ [21 <C:/Users/Rigden/Documents/GitHub/Comps/basic.png>]
+<solenoid.png, id=350, 319.1925pt x 245.41687pt>
 File: solenoid.png Graphic file (type png)
  <use solenoid.png>
-Package pdftex.def Info: solenoid.png used on input line 318.
-(pdftex.def)             Requested size: 175.55641pt x 134.97969pt.
- [21 <C:/Users/Rigden/Documents/GitHub/Comps/solenoid.png>]
-<exchange.png, id=112, 268.75406pt x 612.03656pt>
+Package pdftex.def Info: solenoid.png used on input line 334.
+(pdftex.def)             Requested size: 255.35434pt x 196.33376pt.
+ [22 <C:/Users/Rigden/Documents/GitHub/Comps/solenoid.png>]
+<exchange.png, id=373, 268.75406pt x 612.03656pt>
 File: exchange.png Graphic file (type png)
  <use exchange.png>
-Package pdftex.def Info: exchange.png used on input line 338.
-(pdftex.def)             Requested size: 120.9382pt x 275.41391pt.
- [22]
-<gmr2.png, id=116, 590.205pt x 397.485pt>
+Package pdftex.def Info: exchange.png used on input line 354.
+(pdftex.def)             Requested size: 147.81519pt x 336.62114pt.
+ [23]
+<gmr2.png, id=386, 590.205pt x 397.485pt>
 File: gmr2.png Graphic file (type png)
  <use gmr2.png>
-Package pdftex.def Info: gmr2.png used on input line 344.
-(pdftex.def)             Requested size: 265.58978pt x 178.8666pt.
- [23 <C:/Users/Rigden/Documents/GitHub/Comps/exchange.png>] [24 <C:/Users/Rigde
-n/Documents/GitHub/Comps/gmr2.png>] <perpendicularComparison.png, id=123, 825.0
+Package pdftex.def Info: gmr2.png used on input line 360.
+(pdftex.def)             Requested size: 324.61375pt x 218.61742pt.
+ [24 <C:/Users/Rigden/Documents/GitHub/Comps/exchange.png>] [25 <C:/Users/Rigde
+n/Documents/GitHub/Comps/gmr2.png>] <perpendicularComparison.png, id=404, 825.0
 825pt x 506.6428pt>
 File: perpendicularComparison.png Graphic file (type png)
 
 <use perpendicularComparison.png>
-Package pdftex.def Info: perpendicularComparison.png used on input line 359.
+Package pdftex.def Info: perpendicularComparison.png used on input line 375.
 (pdftex.def)             Requested size: 371.28369pt x 227.98715pt.
- [25 <C:/Users/Rigden/Documents/GitHub/Comps/perpendicularComparison.png>] <cre
-ate.png, id=129, 831.105pt x 480.29437pt>
+ [26 <C:/Users/Rigden/Documents/GitHub/Comps/perpendicularComparison.png>] <cre
+ate.png, id=416, 831.105pt x 480.29437pt>
 File: create.png Graphic file (type png)
 
 <use create.png>
-Package pdftex.def Info: create.png used on input line 375.
-(pdftex.def)             Requested size: 373.99379pt x 216.13046pt.
- [26 <C:/Users/Rigden/Documents/GitHub/Comps/create.png>]
-<eRefMath.jpg, id=133, 1499.6025pt x 1999.47pt>
+Package pdftex.def Info: create.png used on input line 391.
+(pdftex.def)             Requested size: 415.55148pt x 240.14659pt.
+ [27] <eRefMath.jpg, id=429, 1499.6025pt x 1999.47pt>
 File: eRefMath.jpg Graphic file (type jpg)
- <use eRefMath.jpg>
-Package pdftex.def Info: eRefMath.jpg used on input line 388.
-(pdftex.def)             Requested size: 179.94453pt x 239.92604pt.
- [27 <C:/Users/Rigden/Documents/GitHub/Comps/eRefMath.jpg>]
-<reconstruct.png, id=137, 549.55313pt x 588.69937pt>
+
+<use eRefMath.jpg>
+Package pdftex.def Info: eRefMath.jpg used on input line 404.
+(pdftex.def)             Requested size: 254.92905pt x 339.90541pt.
+ [28 <C:/Users/Rigden/Documents/GitHub/Comps/create.png>]
+[29 <C:/Users/Rigden/Documents/GitHub/Comps/eRefMath.jpg>]
+<reconstruct.png, id=450, 549.55313pt x 588.69937pt>
 File: reconstruct.png Graphic file (type png)
  <use reconstruct.png>
-Package pdftex.def Info: reconstruct.png used on input line 421.
+Package pdftex.def Info: reconstruct.png used on input line 437.
 (pdftex.def)             Requested size: 247.29662pt x 264.91226pt.
 
-[28 <C:/Users/Rigden/Documents/GitHub/Comps/reconstruct.png>]
-
-LaTeX Warning: Reference `eObi' on page 29 undefined on input line 430.
-
-<dataHologramCreate.png, id=141, 453.94594pt x 357.58594pt>
+[30 <C:/Users/Rigden/Documents/GitHub/Comps/reconstruct.png>]
+<dataHologramCreate.png, id=469, 453.94594pt x 357.58594pt>
 File: dataHologramCreate.png Graphic file (type png)
 
 <use dataHologramCreate.png>
-Package pdftex.def Info: dataHologramCreate.png used on input line 442.
+Package pdftex.def Info: dataHologramCreate.png used on input line 458.
 (pdftex.def)             Requested size: 204.27377pt x 160.91217pt.
- [29]
-<dataHologramReconstruct.png, id=145, 529.22719pt x 335.00156pt>
+ [31]
+<dataHologramReconstruct.png, id=480, 529.22719pt x 335.00156pt>
 File: dataHologramReconstruct.png Graphic file (type png)
 
 <use dataHologramReconstruct.png>
-Package pdftex.def Info: dataHologramReconstruct.png used on input line 448.
+Package pdftex.def Info: dataHologramReconstruct.png used on input line 464.
 (pdftex.def)             Requested size: 238.15002pt x 150.7493pt.
- [30 <C:/Users/Rigden/Documents/GitHub/Comps/dataHologramCreate.png> <C:/Users/
+ [32 <C:/Users/Rigden/Documents/GitHub/Comps/dataHologramCreate.png> <C:/Users/
 Rigden/Documents/GitHub/Comps/dataHologramReconstruct.png>] (C:\Users\Rigden\Do
-cuments\GitHub\Comps\comps.bbl [31]
+cuments\GitHub\Comps\comps.bbl [33]
 Underfull \hbox (badness 10000) in paragraph at lines 39--43
-\OT1/cmr/m/n/10 URL: $\OT1/cmtt/m/n/10 http : / / cdn . cambridgeincolour . com
- / images / tutorials / airydisk-[]rings . jpg ,[] ANNOTE =$
+\OT1/cmr/m/n/10 URL: []$\OT1/cmtt/m/n/10 http : / / cdn\OML/cmm/m/it/10 :\OT1/c
+mtt/m/n/10 cambridgeincolour\OML/cmm/m/it/10 :\OT1/cmtt/m/n/10 com / images / t
+utorials / airydisk -[] rings\OML/cmm/m/it/10 :\OT1/cmtt/m/n/10 jpg\OML/cmm/m/i
+t/10 ;[] \OT1/cmtt/m/n/10 ANNOTE =$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--48
-\OT1/cmr/m/n/10 URL: $\OT1/cmtt/m/n/10 http : / / upload . wikimedia . org / wi
-kipedia / commons / a / ae / Airy \ _disk \ _spacing \ _near \$
+Overfull \hbox (68.89584pt too wide) in paragraph at lines 45--48
+\OT1/cmr/m/n/10 URL: []$\OT1/cmtt/m/n/10 http : / / upload\OML/cmm/m/it/10 :\OT
+1/cmtt/m/n/10 wikimedia\OML/cmm/m/it/10 :\OT1/cmtt/m/n/10 org / wikipedia / com
+mons / a / ae / Airy[]disk[]spacing[]near[]Rayleigh[]criterion\OML/cmm/m/it/10 
+:\OT1/cmtt/m/n/10 png$[] 
  []
 
-[32] [33]
-Overfull \hbox (147.41185pt too wide) in paragraph at lines 143--147
-\OT1/cmr/m/n/10 URL: $\OT1/cmtt/m/n/10 http : / / www . extremetech . com / com
-puting / 122921-[]seagate-[]hits-[]1-[]terabit-[]per-[]square-[]inch-[]60tb-[]d
-rives-[]on-[]their-[]way$ 
+[34] [35]
+Underfull \hbox (badness 10000) in paragraph at lines 143--147
+\OT1/cmr/m/n/10 URL: []$\OT1/cmtt/m/n/10 http : / / www\OML/cmm/m/it/10 :\OT1/c
+mtt/m/n/10 extremetech\OML/cmm/m/it/10 :\OT1/cmtt/m/n/10 com / computing / 1229
+21 -[] seagate -[] hits -[] 1 -[] terabit -[] per -[] square -[]$
  []
 
-) <ascii.png, id=163, 974.13937pt x 653.44125pt>
+) [36] <ascii.png, id=525, 974.13937pt x 653.44125pt>
 File: ascii.png Graphic file (type png)
  <use ascii.png>
-Package pdftex.def Info: ascii.png used on input line 470.
+Package pdftex.def Info: ascii.png used on input line 489.
 (pdftex.def)             Requested size: 438.35867pt x 294.04584pt.
- [34] [35 <C:/Users/Rigden/Documents/GitHub/Comps/ascii.png>]
-(C:\Users\Rigden\Documents\GitHub\Comps\comps.aux)
+ [37 <C:/Users/Rigden/Documents/GitHub/Comps/ascii.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 492.
 
-LaTeX Warning: There were undefined references.
+(C:\Users\Rigden\Documents\GitHub\Comps\comps.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 492.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 492.
+Package rerunfilecheck Info: File `comps.out' has not changed.
+(rerunfilecheck)             Checksum: 43CB616924BCADEC760C3D9F7619316C;1190.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4118 strings out of 493921
- 53360 string characters out of 3144873
- 124750 words of memory out of 3000000
- 7370 multiletter control sequences out of 15000+200000
- 9543 words of font info for 35 fonts, out of 3000000 for 9000
+ 8260 strings out of 493921
+ 116659 string characters out of 3144873
+ 225530 words of memory out of 3000000
+ 11315 multiletter control sequences out of 15000+200000
+ 9571 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,15n,29p,1880b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,15n,34p,1894b,621s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MikTex 2.8/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MikTex 2.8/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MikTex 2.8/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
@@ -496,9 +667,9 @@ MikTex 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
 kTex 2.8/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MikTe
 x 2.8/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MikTex 
 2.8/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on comps.pdf (35 pages, 3076549 bytes).
+Output written on comps.pdf (37 pages, 3350029 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 607 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 
